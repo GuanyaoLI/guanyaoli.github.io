@@ -48,11 +48,13 @@
             if(query.length == 0){
                 var lat = 22.376194;
                 var lon = 114.129524;
+                var zoom_level = 12;
             }
             else{
                 var arr = query.split('&');
                 var lat = arr[0].split('=')[1];
                 var lon = arr[1].split('=')[1];
+                var zoom_level = 18;
 
             }
             
@@ -63,7 +65,7 @@
                 {
                     center: [lat, lon],
                     crs: L.CRS.EPSG3857,
-                    zoom: 18,
+                    zoom: zoom_level,
                     zoomControl: true,
                     preferCanvas: false,
                 }
