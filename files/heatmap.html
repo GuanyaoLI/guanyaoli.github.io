@@ -45,15 +45,17 @@
 
             let anchor = document.getElementById("w3s");
             let query = window.location.search;
-            if(query.length == 0){
-                var lat = 22.376194;
-                var lon = 114.129524;
+            var arr = query.split('&');
+            var lat = arr[0].split('=')[1];
+            var lon = arr[1].split('=')[1];
+            var flag = 0;
+            if(lat == 0){
+                lat = 22.376194;
+                lon = 114.129524;
                 var zoom_level = 12;
             }
             else{
-                var arr = query.split('&');
-                var lat = arr[0].split('=')[1];
-                var lon = arr[1].split('=')[1];
+                flag = 1
                 var zoom_level = 18;
 
             }
@@ -83,7 +85,7 @@
                 {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 15}
             ).addTo(map_904a27eaac184b069b98a5cd32fc3659);
         
-            if(query!=0)
+            if(flag==1)
             {
                 var marker_ed1402b33b9941d9b0a2a09fc10bbed3 = L.marker(
                 [lat,lon],
