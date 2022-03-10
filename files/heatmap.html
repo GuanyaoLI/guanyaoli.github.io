@@ -45,20 +45,31 @@
 
             let anchor = document.getElementById("w3s");
             let query = window.location.search;
-            var arr = query.split('&');
-            var lat = arr[0].split('=')[1];
-            var lon = arr[1].split('=')[1];
+            
             var flag = 0;
-            if(lat == 0){
+            if(query == 0)
+            {
                 lat = 22.376194;
                 lon = 114.129524;
                 var zoom_level = 12;
             }
-            else{
-                flag = 1
-                var zoom_level = 18;
+            else
+            {
+                var arr = query.split('&');
+                var lat = arr[0].split('=')[1];
+                var lon = arr[1].split('=')[1];
+                if(lat == 0){
+                    lat = 22.376194;
+                    lon = 114.129524;
+                    var zoom_level = 12;
+                }
+                else{
+                    flag = 1
+                    var zoom_level = 18;
 
+                }
             }
+            
             
 
     
