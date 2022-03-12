@@ -102,6 +102,11 @@
                 {}
             ).addTo(map_904a27eaac184b069b98a5cd32fc3659);
             }
+    
+    let scale = L.control.scale()
+    scale.addTo(map_904a27eaac184b069b98a5cd32fc3659)
+    scale._mScale.innerText = `${scale._mScale.innerText.slice(0, -2)} ${scale._mScale.innerText.slice(-2) ==='km'? '公里': '米'}`
+    scale.getContainer().childNodes[1].innerText = `${scale.getContainer().childNodes[1].innerText.slice(0, -2)} ${scale.getContainer().childNodes[1].innerText.slice(-2) ==='mi'? '英里': '英尺'}`
             
         
 </script>
