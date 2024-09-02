@@ -29,13 +29,13 @@
 .paragraph_style_1 {
     color: rgb(81, 81, 81);
     font-family: 'Trebuchet MS', 'Lucida Grande', 'Optima', 'Cardo', 'HelveticaNeue', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 16px;
+    line-height: 18px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -43,10 +43,10 @@
     opacity: 1.00;
     padding-bottom: 0px;
     padding-top: 0px;
-    text-align: left;
     text-decoration: none;
     text-indent: 0px;
     text-transform: none;
+    text-align: justify;
 }
 .paragraph_style_2 {
     color: rgb(81, 81, 81);
@@ -73,7 +73,7 @@
 .paragraph_style_3 {
     color: rgb(81, 81, 81);
     font-family: 'Trebuchet MS', 'Lucida Grande', 'Optima', 'Cardo', 'HelveticaNeue', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
@@ -95,7 +95,7 @@
 .paragraph_style_4 {
     color: rgb(81, 81, 81);
     font-family: 'Trebuchet MS', 'Lucida Grande', 'Optima', 'Cardo', 'HelveticaNeue', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
@@ -116,7 +116,7 @@
 }
 .style_2 {
     font-family: 'Trebuchet MS', 'Lucida Grande', 'Optima', 'Cardo', 'HelveticaNeue', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-stretch: normal;
     font-style: normal;
     font-weight: bold;
@@ -124,7 +124,7 @@
 }
 .style_3 {
     font-family: 'Trebuchet MS', 'Lucida Grande', 'Optima', 'Cardo', 'HelveticaNeue', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-stretch: normal;
     font-style: italic;
     font-weight: 400;
@@ -185,7 +185,7 @@
 .paragraph_style_6 {
     color: rgb(81, 81, 81);
     font-family: 'Trebuchet MS', 'Lucida Grande', 'Optima', 'Cardo', 'HelveticaNeue', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
